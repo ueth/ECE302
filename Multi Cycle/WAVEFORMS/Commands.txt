@@ -1,0 +1,19 @@
+addi r1, r0, 12
+li r3, 8
+sub r1, r1, r3
+add r1, r1, r1
+and r3, r1, r0
+not r2, r1, r0
+nand r2, r0, r0
+nor r2, r1, r0
+sra r2, r2
+srl r2, r2
+sll r2, r2
+rol r2, r2
+ror r2, r2
+lui r3, 8
+nandi r2, r0, 8
+ori r2, r0, 8
+bne r0, r0, 0xffff
+beq r0, r0, 0xfff
+b 0xff
